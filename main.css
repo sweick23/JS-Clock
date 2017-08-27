@@ -39,7 +39,7 @@ body{
 	background: var(--handColor);
 	transform: rotate(90deg);
 	transform-origin: 100%;
-	transition: all 0.5s;
+	transition: all 0.001s;
 	transition-timing-function: cubic-bezier(0.1, 2.2, .58, 1);
 }
 
@@ -59,7 +59,7 @@ body{
 	background: var(--handColor);
 	transform: rotate(90deg);
 	transform-origin: 100%;
-	transition:  0.5s;
+	transition:  0.001s;
 	transition-timing-function: cubic-bezier(0.1, 2.2, .58, 1);
 }
 
@@ -80,6 +80,6 @@ body{
 	background: var(--handColor);
 	transform: rotate(90deg);
 	transform-origin: 100%;
-	transition: all 0.5s;
+	transition: all 0.001s;
 	transition-timing-function: cubic-bezier(0.1, 2.2, .58, 1);
 }
