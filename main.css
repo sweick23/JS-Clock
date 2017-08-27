@@ -1,0 +1,85 @@
+:root{
+	--border: white;
+	--background: white; 
+	--hand: 30%;
+	--handColor: black;
+	--body: blue;
+}
+
+
+body{
+	background: var(--body);
+}
+
+#date{
+	margin-left: 70%;
+	margin-top: -23px;
+	width: 65px;
+	height: 20px;
+	background: var(--background);
+	border-radius: 5px;
+	border-style: inset;
+}
+
+.clockFaceSeconds{
+	
+	margin-top: -80px;
+	margin-left: 55%;
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	border: 3px solid var(--border);
+}
+
+.hour-hand{
+
+	margin-top: 50%;
+	width: 150px;
+	height: 1%;
+	background: var(--handColor);
+	transform: rotate(90deg);
+	transform-origin: 100%;
+	transition: all 0.5s;
+	transition-timing-function: cubic-bezier(0.1, 2.2, .58, 1);
+}
+
+.clockFaceMinutes{
+	
+	margin-left: 12.5%;
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+	border: 3px solid var(--border);
+}
+
+.minute-hand{
+	margin-top: 50%;
+	width: 62.5px;
+	height: 1.5%;
+	background: var(--handColor);
+	transform: rotate(90deg);
+	transform-origin: 100%;
+	transition:  0.5s;
+	transition-timing-function: cubic-bezier(0.1, 2.2, .58, 1);
+}
+
+.clockFaceHour{
+	
+	margin-top: 10%;
+	margin-left: 30%;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	border: 3px solid var(--border);
+}
+
+.second-hand{
+	margin-top: 50%;
+	width: 37.5px;
+	height: 1.5%;
+	background: var(--handColor);
+	transform: rotate(90deg);
+	transform-origin: 100%;
+	transition: all 0.5s;
+	transition-timing-function: cubic-bezier(0.1, 2.2, .58, 1);
+}
